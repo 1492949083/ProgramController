@@ -2,3 +2,5 @@
   path: 'C:\MC\Plain Craft Launcher 2.exe'
 - text: steam
   path: 'C:\Steam\steam.exe'
+- text: clash
+  path: 'C:\Clash for Windows\Clash for Windows.exe'
