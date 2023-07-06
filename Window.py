@@ -12,6 +12,10 @@ root = Tk()
 root.title("程序控制器")
 # 设置窗口大小
 root.geometry("320x240")
+# 设置窗口是否可变长、宽，True：可变，False：不可变
+root.resizable(width=False, height=False)
+# 设置窗口图标
+root.iconbitmap('icon.ico')
 
 # 读取list.yml文件
 with open("list.yml") as file:
